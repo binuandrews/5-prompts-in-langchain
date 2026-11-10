@@ -8,6 +8,6 @@
   "openai": {
     "model": "gpt-6.1-sol",
     "temperature":1,
-    "max_tokens": 300
+    "max_tokens": 1000
   }
 }
