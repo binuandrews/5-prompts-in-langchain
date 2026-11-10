@@ -118,7 +118,7 @@ few_shot_prompt = FewShotPromptTemplate(
         "{{format_instructions}}\n\n"
         "Examples:\n"
     ),
-    suffix="Customer Review:\n{review}\nExtracted Info (JSON):",
+    suffix="Customer Review:\n{{ review }}\nExtracted Info (JSON):",
     input_variables=["review"],
     partial_variables={"format_instructions": format_instructions},
     template_format="jinja2"
